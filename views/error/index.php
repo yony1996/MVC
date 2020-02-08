@@ -10,7 +10,7 @@
 		<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" media="screen">
 	</head>
 	<body>
-		<h1 class="text-center">Err al cargar el recurso</h1>
+		<h1 class="text-center"> <?php echo $this->mensaje; ?>   </h1>
 
 		<!-- jQuery -->
 		<script src="//code.jquery.com/jquery.js"></script>
